@@ -1,0 +1,203 @@
+.navbar{
+    background-color: transparent;
+    
+    padding:.2%;
+    
+    
+}
+.logo{
+    text-align: center;
+    vertical-align: baseline;
+    margin-left: 3vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+    position: absolute;
+    color:rgb(14, 65, 14); 
+    opacity: 0.7;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px 50px;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 15%;
+    text-align: center;
+}
+li {
+    
+    margin: 10px;
+    width: 30%;
+    font-size: 120%;
+    
+}
+li a {
+    text-decoration: none;
+    color: seashell;
+    border: transparent;
+    border-top: white;
+    border-style: solid;
+
+}
+li a:hover{
+    color: rgb(130, 161, 130);
+    transition: color .2s ease;
+    
+}
+body{
+   background-image: url(Images/leaves-medium.jpeg);
+   background-size: contain;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    
+    padding:10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 3em;
+    color: whitesmoke;
+    
+
+}
+.container1 input[type=text] {
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    text-align: center;
+    opacity: .7;
+    color: rgb(6, 51, 32);
+}
+.container2{
+    
+    background-color: seashell
+    margin: 0px;
+    margin-top: 10px;
+}
+.boxes{
+    background-color: whitesmoke;
+    text-align: center;
+    display: flex;
+    padding-top: 25px;
+
+}
+    
+h2{
+    width: 50%;
+    min-width: 120px;
+    background-color: whitesmoke;
+    margin-top: 0;
+    width: 50vw;
+    height: 15vw;
+    
+    font-size: 2.5vw;
+    vertical-align: 50%;
+    min-height: 100px;
+    
+}
+h2 a {
+    
+    background-color: black;
+    display: inline-block;
+    size: 100%;
+    padding: 12%;
+    width: 80%;
+    height: 100%;
+    padding-top: 5.5vw;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+h2 a:hover {
+    opacity: 0.5;
+    transition: .2s ease;
+}
+.water {
+    background-image: url(Images/water-large.jpeg);
+
+}
+.earth {
+    background-image: url(Images/earth-large.jpeg);
+}
+.fire {
+    background-image: url(Images/fire-large.jpeg);
+}
+.air {
+    background-image: url(Images/air-large.jpeg);
+    background-position: bottom;
+}
+.lorem {
+    margin-top: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.socials{
+    text-align: center;
+    background-color: transparent;
+    
+    padding: 10px;
+    
+}
+.socials a {
+    color: seashell;
+    border: transparent;
+    border-top: white;
+    border-style: solid;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.socials a:hover{
+    color: rgb(130, 161, 130);
+    transition: color .2s ease;
+}
+
+@media screen and (max-width: 450px) {
+    .navbar{
+        padding: 0.5%;
+        
+    
+    }
+    ul{
+        margin-left: 0;
+    }
+    li {
+        margin: 4px;
+        width: 30%;
+    }
+    .container1{
+        font-size: 2em;
+    }
+    .logo{
+        font-size: 1em;
+        margin-top: 80vw;
+        margin-left: 0;
+        opacity: ;
+        
+    }
+    .boxes{
+        font-size: .8em;
+        flex-wrap: wrap;
+    }
+    h2{
+        min-width: 50vw;
+        min-height: 30vw;
+        margin-bottom: 15px;
+        font-size: 2em;
+    }
+    h2 a{
+        display: flexbox;
+        
+    }
+    .lorem {
+        padding: 9px;
+        margin-top: 0;
+    }
+}
