@@ -47,7 +47,7 @@ li a:hover{
     
 }
 body{
-   background-image: url(Practice/Images/leaves-medium.jpeg);
+   background-image: url(../Images/leaves-medium.jpeg);
    background-size: contain;
     background-color: whitesmoke;
     margin: 0;
@@ -120,17 +120,17 @@ h2 a:hover {
     transition: .2s ease;
 }
 .water {
-    background-image: url(Practice/Images/water-large.jpeg);
+    background-image: url(../Images/water-large.jpeg);
 
 }
 .earth {
-    background-image: url(Images/earth-large.jpeg);
+    background-image: url(../Images/earth-large.jpeg);
 }
 .fire {
-    background-image: url(Images/fire-large.jpeg);
+    background-image: url(../Images/fire-large.jpeg);
 }
 .air {
-    background-image: url(Images/air-large.jpeg);
+    background-image: url(../Images/air-large.jpeg);
     background-position: bottom;
 }
 .lorem {
