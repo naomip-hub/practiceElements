@@ -1,0 +1,151 @@
+.navbar{
+    background-color: gray;
+    padding:.2%;
+    
+}
+.logo{
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 1.5%;
+    font-size: 1.5em;
+    position: absolute;
+    background-color: darksalmon;
+    padding: 10px;
+    border-radius: 15px 50px
+}
+ul{
+    outline-style: dotted;
+    outline-color: rgb(32, 181, 218);
+    list-style-type: none;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 15%;
+    text-align: center;
+}
+li {
+    outline-style: solid;
+    outline-color: goldenrod;
+    margin: 10px;
+    width: 30%;
+    font-size: 120%;
+    
+}
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+body{
+    outline-style: dashed;
+    outline-color: brown;
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    padding:10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: rgb(223, 185, 204);
+    text-align: center;
+    font-size: 3em;
+
+}
+.container2{
+    outline-style: solid;
+    outline-color: yellowgreen;
+    background-color: lightsteelblue;
+    margin: 0px;
+    margin-top: 10px;
+}
+.boxes{
+    outline-style: solid;
+    outline-color: darkmagenta;
+    text-align: center;
+    display: flex;
+    
+
+}
+    
+h2{
+    width: 50%;
+    min-width: 120px;
+    outline-style: solid;
+    outline-color: rgb(2, 0, 138);
+    background-color:white;
+    margin-top: 0;
+    width: 50vw;
+    height: 15vw;
+    
+    font-size: 2.5vw;
+    vertical-align: 50%;
+    min-height: 100px;
+    
+}
+h2 a {
+    outline-style: solid;
+    outline-color: rgb(212, 23, 36);
+    background-color: lightyellow;
+    display: inline-block;
+    size: 100%;
+    padding: 12%;
+    width: 80%;
+    height: 100%;
+    padding-top: 5.5vw;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: lightslategrey;
+    
+    
+}
+.lorem {
+    padding: 20px;
+    background-color: lightskyblue;
+}
+.socials{
+    text-align: center;
+    background-color: rgb(95, 134, 2);
+    
+    padding: 10px;
+    
+}
+.socials a {
+    color: lightyellow;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+@media screen and (max-width: 450px) {
+    .navbar{
+        padding: 2%;
+        background-color: teal;
+    
+    }
+    ul{
+        margin-left: 8%;
+    }
+    .container1{
+        font-size: 2em;
+    }
+    .logo{
+        font-size: 1em;
+        margin-top: 4.5%;
+    }
+    .boxes{
+        font-size: .8em;
+        flex-wrap: wrap;
+    }
+    h2{
+        min-width: 50vw;
+        min-height: 30vw;
+        margin-bottom: 15px;
+        font-size: 2em;
+    }
+    h2 a{
+        display: flexbox;
+        
+    }
+    .lorem {
+        padding: 9px;
+        margin-top: 0;
+    }
+}
